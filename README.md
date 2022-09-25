@@ -13,7 +13,7 @@
 
 ## Linear Regression to Predict MPG
 
-![](images/del1.png)
+![](Images/del1.png)
 
 #### To help explain what we accomplished in the above chart, we are answering the questions below,
 * Q - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -26,7 +26,7 @@
 
 ## Summary Statistics on Suspension Coils
 
-![](images/totalsummary.png)
+![](Images/totalsummary.png)
 
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
 #### Looking at the Total Summary displayed above we can clearly see that the variance for all Manufacturing lots in total is equal to 62.29psi, less than 100 psi, which means that overall the lots in toal do meet the specification for the design.
@@ -34,14 +34,14 @@
 #### However, our Lot Summary screenshot below shows that Lot 3's variance is 170.28psi which is way above the design requirement.
 #### Lot1 & Lot2 are also within the design range, with variances of 0.98 and 7.47 respectively.
 
-![](images/lotsummary.png)
+![](Images/lotsummary.png)
 
 
 ## T-Tests on Suspension Coils
 
 #### Below is a summary of the t-test results across all manufacturing lots:
 
-![](images/ttestall.png)
+![](Images/ttestall.png)
 
 Our p-value in this test is 0.06, which is above our significance level of 0.05. Which allows us to accept our null hypothesis, that all means for the three manufacturing lots are NOT different than the population mean of 1500.
 
@@ -54,9 +54,9 @@ Our p-value in this test is 0.06, which is above our significance level of 0.05.
 #### p-values of Lot1 and Lot2 are both above our significance level, which means that we accept our null hypthesis and that the means for both lots are similar to the population mean of 1500. (This "mean" result is also displayed below in the summary for the t-tests 1500 and 1500.2 respectively).
 #### On the other hand, the p-value for Lot3 is 0.0416 and is lower than our significance level, which helps us reject the null hypothesis and indicate that the mean for Lot3 (1496.14) is different from the population mean of 1500.
 
-![](images/ttestlot1.png)
-![](images/ttestlot2.png)
-![](images/ttestlot3.png)
+![](Images/ttestlot1.png)
+![](Images/ttestlot2.png)
+![](Images/ttestlot3.png)
 
 ## Study Design: MechaCar vs Competition
 
