@@ -54,9 +54,12 @@ Our p-value in this test is 0.06, which is above our significance level of 0.05.
 #### p-values of Lot1 and Lot2 are both above our significance level, which means that we accept our null hypthesis and that the means for both lots are similar to the population mean of 1500. (This "mean" result is also displayed below in the summary for the t-tests 1500 and 1500.2 respectively).
 #### On the other hand, the p-value for Lot3 is 0.0416 and is lower than our significance level, which helps us reject the null hypothesis and indicate that the mean for Lot3 (1496.14) is different from the population mean of 1500.
 
+
 ![](Images/ttestlot1.png)
-![](Images/ttestlot2.png)
-![](Images/ttestlot3.png)
+
+![](Images/ttestlot2.PNG)
+
+![](Images/ttestlot3.PNG)
 
 ## Study Design: MechaCar vs Competition
 
